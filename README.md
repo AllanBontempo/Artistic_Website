@@ -29,7 +29,7 @@ I know there may be some imperfections such as semantics, unnecessary classes, b
 
 **Links:**
 * [LinkedIn](https://www.linkedin.com/in/allan-bontempo-168721130/);
-* [Medium](https://medium.com/);
+* [Medium](https://medium.com/@allanbt);
 
 <br>
 
