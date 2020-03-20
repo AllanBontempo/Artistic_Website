@@ -37,7 +37,7 @@ It's my first project as a web developer. I really enjoyed doing this project an
 <br>
 
 <p align="center">
-  <img src="data/banner.png" width=85% >
+  <img src="data/banner.png" width=50% >
 </p>
 
 
