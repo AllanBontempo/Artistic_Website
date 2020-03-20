@@ -2,7 +2,7 @@
 ](https://github.com/AllanBontempo/Artistic_Website/issues)
 
 
-# Artistic_Website
+# Artist_Website
 
 <br>
 <br>
