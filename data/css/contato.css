@@ -1,0 +1,84 @@
+header{
+  height: 3em;
+}
+
+form label, button{
+  color:#9d9d9d;
+  font-family: 'Vollkorn';
+  font-size: 1.4em;
+}
+
+form {
+  margin-bottom: 9em;
+}
+
+.titulo-contato {
+  margin-top: 1.5em;
+  margin-bottom: 1.3em;
+  color: rgb(232, 232, 232, .9);
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5em;
+}
+
+#assunto{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+
+@media (min-width: 768px) {
+    form{
+      width: 70%;
+      transform: scale(1.3) translate(15%, 10%);
+      margin-bottom: 33em;
+    }
+
+    #assunto{
+      width: 30%;
+    }
+
+    .titulo-contato {
+      font-size: 4.2em;
+    }
+
+    footer{
+      height: 30em;
+    }
+
+
+}
+
+
+
+@media (min-width: 922px){
+  header{
+    height: 2.1em;
+  }
+
+  form {
+    margin: 3em 0em 15em 0em;
+    width: 43%;
+    transform: translate(-30%, 20%) scale(1.3);
+  }
+
+  footer{
+    height: 19.8em;
+  }
+
+
+  .titulo-contato {
+    margin-top: 1.5em;
+    color: rgb(232, 232, 232, .9);
+    font-family: 'Indie Flower', cursive;
+    font-size: 3em;
+    transform: translateX(-24%);
+
+  }
+
+
+  #assunto{
+    width: 38%;
+  }
+
+
+}

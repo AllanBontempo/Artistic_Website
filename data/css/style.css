@@ -1,0 +1,387 @@
+html,body, header {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background-image: linear-gradient(to bottom right, #000000, #778899);
+}
+
+#banner {
+  background-image: url(../imagens/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  height: 100%;
+  position: relative;
+  transform: translateY(9%);
+}
+
+#brand-custom {
+  font-weight: bold;
+  font-family: 'Yeon Sung' ;
+  margin-left: .3em;
+
+}
+
+#menu-custom {
+  font-family: 'Vollkorn' ;
+}
+
+.projetos-dropdown{
+  font-family: 'Odibee Sans';
+  font-size: 1.3em;
+}
+
+
+
+.navbar.custom a:hover {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+
+.sobre-projetos {
+  font-size: 1.7em;
+  color: rgba(205, 92, 92, 1);
+  margin: 65px 0px 50px 0px;
+  text-align: center;
+  font-family: 'Pacifico';
+}
+
+
+.custom-figure {
+  margin-top: 3em;
+  margin-bottom: 6em;
+}
+
+.custom-figurecaption h3 {
+  font-family: 'Oxanium', cursive;
+  font-weight: bold;
+}
+
+
+.custom-figurecaption {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.thumbnail {
+  margin: 2.5em;
+  padding: .5em;
+  background-color: rgb(238, 223, 204	);
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+footer {
+  background-color: rgba(0 ,0 ,0	, .9);
+  color: #FFFFFF;
+  padding: 0.1em 2.6em 0.1em 2.6em;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+footer address{
+  margin-bottom: 0;
+}
+
+.thiago-de-paula-footer {
+  font-size: 1.8em;
+  transform: translate(-17px, 15px);
+  font-family: 'Yeon Sung';
+  text-decoration: none;
+  color: rgb(232, 232, 232);
+
+}
+
+.thiago-de-paula-footer a{
+    color: rgb(232, 232, 232);
+}
+
+
+.insta, .email {
+  font-size: 1.2em;
+}
+
+.insta {
+  transform: translate(1em,-1.68em);
+
+}
+
+#insta {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.icone-insta {
+  transform: translate(-55%, 22%) scale(0.5) ;
+}
+
+.email {
+  transform: translate(1.4em,-3.8em);
+}
+
+.icone-email {
+  transform: translate(-52%,-32%) scale(.5);
+}
+
+.brasilia {
+  font-size: 1.3em;
+  transform: translate(-12px, -32px);
+}
+
+
+@media (width: 320px){
+  .insta, .email {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 767px){
+  .navbar-nav .open .dropdown-menu {
+
+    padding-left: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  #banner {
+    background-size: cover;
+    background-position: center;
+    transform: scale(0.8);
+  }
+
+  #brand-custom {
+    border-right: 2px solid rgba(211,211,211,.5);
+    font-size: 1.8em;
+    padding-right: 1.5em;
+    margin-left: 1em;
+  }
+
+  #menu-custom {
+    font-size: 1.4em;
+
+  }
+
+  #menu-custom:first-child{
+    margin-left: 1em;
+  }
+
+
+  .sobre-projetos {
+    font-size: 2.5em;
+
+  }
+
+  .custom-figure-garotos {
+    padding-bottom: 4em;
+  }
+
+  .custom-figure-caos img {
+    width: 90%;
+  }
+
+
+
+  .custom-figurecaption {
+    font-size: 1.45em;
+  }
+
+  .thumbnail {
+    margin: 0;
+    margin-bottom: 4em;
+  }
+
+  .thumbnail.custom-figure.fim img{
+    width: 80%;
+  }
+  .custom-figure-garotos {
+    padding-bottom: 8em;
+  }
+
+  #principal-texto-garotos {
+    transform: translateY(5%);
+  }
+  #principal-texto-garotos h3{
+    transform: translateY(-.5em);
+  }
+
+  footer {
+    height: 38%;
+  }
+
+  .thiago-de-paula-footer {
+    font-size: 3em;
+    margin-left: .2em
+  }
+
+  .insta {
+    transform: translate(2em,0);
+    font-size: 2em;
+    position: absolute;
+
+  }
+
+
+  .icone-insta {
+    transform: translate(-26%,69%) scale(.8) ;
+  }
+
+  .email {
+    transform: translate(2.3em,1.5em);
+    font-size: 1.8em;
+    position: absolute;
+  }
+
+  .icone-email {
+    transform: translate(-26%,106%) scale(.8);
+  }
+
+  .brasilia {
+    font-size: 2em;
+    transform: translate(-7px, 57px);
+  }
+
+  .col-sm-6{
+    width: 50%;
+  }
+
+}
+
+@media(min-width: 992px) {
+  #banner {
+    background-size: contain;
+  }
+
+  #brand-custom {
+    font-size: 2.1em;
+
+  }
+
+  #menu-custom {
+    font-size: 1.4em;
+  }
+
+  .sobre-projetos {
+    font-size: 3em;
+    margin-bottom: 1.7em;
+  }
+
+  .col-sm-6 {
+    width: 33%;
+  }
+
+  #principal-garotos{
+    transform: translateX(-20%);
+  }
+
+  #principal-caos{
+    transform: translateX(20%);
+
+  }
+
+  .custom-figure-garotos {
+    padding-bottom: 9.85em;
+
+  }
+
+
+    .custom-figure-caos {
+      padding-bottom: 4em;
+    }
+
+
+  .custom-figure-garotos img{
+    padding: 0 1em 0 1em;
+    transform: translateY(16%) scale(1.1);
+
+  }
+
+
+  .thumbnail.custom-figure.fim img{
+    width: 80%;
+  }
+
+  .custom-figure-caos img {
+    width: 93%;
+  }
+
+
+  .thumbnail{
+    margin: 0 0em 6em 0em;
+  }
+
+  #principal-texto-garotos {
+    transform: translateY(30%);
+  }
+
+  #principal-texto-garotos h3 {
+    transform: translateY(-.5em);
+  }
+
+
+  .navbar-nav .open .dropdown-menu a:hover {
+    font-weight: bold;
+    color: rgba(205, 92, 92, 1);
+  }
+
+
+
+  footer {
+    height: 20em;
+
+  }
+
+  .thiago-de-paula-footer {
+    font-size: 2.5em;
+  }
+
+  .thiago-de-paula-footer:hover{
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+
+  .insta {
+    font-size: 1.5em;
+    transform: translate(2.5em,-1.68em);
+
+  }
+
+
+  .icone-insta {
+    transform: translate(-10%, 18%) scale(0.5) ;
+  }
+
+  .email {
+    font-size: 1.4em;
+    transform: translate(3em,-2.3em);
+  }
+
+  .icone-email {
+    transform: translate(-7%,-2%) scale(.5);
+  }
+
+  .brasilia {
+    font-size: 1.4em;
+    transform: translate(15px, -1px);
+  }
+
+  .custom-figure-garotos:hover, .custom-figure.fim:hover, .custom-figure-caos:hover{
+   transform: translate(-1%, -1%) scale(1);
+   box-shadow: 0 8px 15px rgba(0,0,0,1);
+  }
+
+
+}

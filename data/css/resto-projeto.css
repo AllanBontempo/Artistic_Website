@@ -1,0 +1,133 @@
+header {
+  height: 3em;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-weight: bold;
+  color: rgba(205, 92, 92, 1);
+  font-family: 'Indie Flower', cursive;
+  padding-top: .5em;
+}
+
+.titulo-principal.garotos {
+  font-size: 3em;
+}
+
+.conteudo p{
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, .7);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+
+}
+
+.conteudo p:last-child {
+  margin-bottom: 2em;
+}
+
+@media (min-width: 768px) {
+  .conteudo p{
+    font-size: 1.9em;
+  }
+
+  .titulo-principal {
+    font-size: 5.2em;
+  }
+
+  .titulo-principal.garotos, .titulo-principal.mais-perto-fim, .titulo-principal.caos {
+    font-size: 4em;
+  }
+
+  .banner-garotos, .thumbnail.custom-figure.sobre-mim, .banner-caos {
+    margin: 2em;
+  }
+
+  .imagem-mais-perto-fim {
+    margin: 2em 7em 2em 7em;
+  }
+
+
+}
+
+@media (min-width:992px) {
+  .titulo-principal {
+    font-size: 3.5em;
+  }
+
+  .custom-figure.sobre-mim {
+    width: 63%;
+    transform: translate(25%,0);
+  }
+
+  .conteudo p{
+    font-size: 1.6em;
+    width: 125%;
+    transform: translate(-13%,0);
+  }
+
+  .conteudo-sobre-mim p{
+    font-size: 1.6em;
+    width: 99%;
+    transform: translate(-1%,0);
+  }
+
+
+  .conteudo-sobre-mim p:last-child {
+    margin-bottom: 3em;
+  }
+
+  .titulo-principal.garotos, .titulo-principal.mais-perto-fim, .titulo-principal.caos {
+    font-size: 3.5em;
+  }
+
+  .custom-figure.banner-garotos {
+    width: 78%;
+    transform: translate(11.5%,0);
+    margin: 3em 0 4em 0;
+  }
+
+  .conteudo.garotos {
+    width: 65%;
+    transform: translate(28%,0);
+  }
+
+
+  .conteudo-caos p{
+    font-size: 1.6em;
+    width: 100%;
+    transform: translateX(-4%);
+  }
+
+  .conteudo-mais-perto-fim p{
+    font-size: 1.6em;
+    width: 90%;
+    transform: translateX(3%);
+  }
+
+
+  .custom-figure.banner-caos{
+    width: 58%;
+    transform: translateX(33%);
+  }
+
+  .custom-figure.imagem-mais-perto-fim  {
+    transform: translateX(48%);
+    width: 42%;
+    margin-bottom: 10em;
+
+  }
+
+  .thumbnail.custom-figure.sobre-mim {
+    margin-bottom: 3.2em;
+  }
+
+
+  .conteudo-caos {
+    width: 85%;
+    transform: translateX(9%);
+  }
+
+}

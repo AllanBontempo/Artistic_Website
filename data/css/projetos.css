@@ -1,0 +1,148 @@
+#primeiro-capitulo{
+ background-color: #FFFFFF;
+ transform: translate(0, 0em);
+}
+
+#capitulo-texto{
+  transform: translate(27px, -9px);
+  font-size: 1.2em;
+
+}
+
+#segundo-capitulo{
+ background-color: #FFFFFF;
+ position: absolute;
+ margin: 6.3em;
+ transform: translate(-0.5em, -34em);
+}
+
+#capitulo-segundo-texto {
+  font-size: 1.2em;
+  transform: translate(18px, -11px);
+}
+
+#projeto-mais-perto-do-fim, #caos {
+  margin: 1em;
+  padding: .5em;
+  background-color: #FFFFFF;
+}
+
+.container.gallery-container.ajustes {
+  height: 42em;
+  margin-bottom: 3em;
+}
+
+
+@media (min-width: 768px) {
+
+  .container.gallery-container {
+      height: 130em;
+      width: 90%;
+      margin-left: 2.6em;
+  }
+
+  .titulo-projeto  {
+      font-size: 4em;
+  }
+
+  .gallery-container p.page-description {
+      font-size: 1.8em;
+  }
+
+  #primeiro-capitulo {
+    transform: translate(2%, -4em) scale(.745);
+  }
+
+
+  #segundo-capitulo {
+    width: 75%;
+    transform: translate(0em, -71em)scale(.8);
+  }
+
+  .container.gallery-container.ajustes {
+    height: 70em;
+
+  }
+
+  #projeto-mais-perto-do-fim, #caos {
+    width: 75%;
+    transform: translate(12.5%,0);
+  }
+
+
+}
+
+@media (min-width:992px) {
+  .container.gallery-container {
+    height: 63em;
+    margin-top: 8em;
+    margin-bottom: 5em
+  }
+
+  .titulo-projeto  {
+      font-size: 3.2em;
+  }
+
+  .gallery-container p.page-description {
+      font-size: 1.5em;
+  }
+
+  #primeiro-capitulo{
+    width: 50%;
+    transform: scale(2.5) translate(62px, 86px);
+    padding: 10px;
+  }
+
+
+  #segundo-capitulo {
+    width: 91.5%;
+    transform: translate(39em, -57em);
+    border: 2.4px solid #ddd;
+    border-radius: 10px;
+    padding: 24px;
+  }
+
+  #capitulo-texto{
+    margin: 0;
+    font-size: .5em;
+    transform: scale(1) translate(-5px, -13px);
+
+  }
+
+  #capitulo-segundo-texto {
+    transform: translate(-8px, -33px);;
+  }
+
+
+  .container.gallery-container.ajustes {
+    height: 60em;
+    width: 80%;
+    margin: 5em 0em 5em 7em;
+  }
+
+  #projeto-mais-perto-do-fim, #caos {
+    width: 77%;
+    transform: translate(8.4em, -1em);
+    border: 2.4px solid #ddd;
+    border-radius: 10px;
+
+  }
+
+
+  .titulo-projeto.titulo-ajuste {
+    font-size: 3em;
+  }
+
+  .gallery-container p.page-description.description-ajuste{
+    font-size: 1.6em;
+  }
+
+
+
+  .col-md-4.ajuste {
+    width: 60%;
+    transform: translate(18%,1%);
+
+  }
+
+}
