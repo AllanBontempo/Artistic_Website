@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img src="data/banner-thiago.jpg" width=39%>
+  <img src="data/banner-thiago.jpg" width=45%>
 </p>
 
 <br>
