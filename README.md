@@ -16,10 +16,16 @@
 
 I made this web site for the artist Thiago de Paula to publish his projects and sell his products.
 
+The main objective of the site is to show the artist's projects, to be his portfolio.<br>
+Your books and comics will be read as a virtual book, without the need for downloads, leaving the reader with a comfortable reading experience.
+
+
+
 
 It's my first project as a developer. I really enjoyed doing it! 
 
-I know there may be some imperfections such as semantics, unnecessary classes, but this whole project made me see what work is like in practice and I am very happy to have achieved this result in the first project.
+
+
 
 
 **Languages used:** HTML, CSS, JavaScript. 
