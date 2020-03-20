@@ -4,8 +4,11 @@
 
 # Artistic_Website
 I made this web site for the artist Thiago de Paula to publish his projects and sell his products.
-<br>
-It's my first project as a developer.I really enjoyed doing it! I know there may be some imperfections such as semantics, unnecessary classes, but this whole project made me see what work is like in practice and I am very happy to have achieved this result in the first project.
+
+
+It's my first project as a developer. I really enjoyed doing it! 
+
+I know there may be some imperfections such as semantics, unnecessary classes, but this whole project made me see what work is like in practice and I am very happy to have achieved this result in the first project.
 
 
 **Languages used:** HTML, CSS, JavaScript. 
