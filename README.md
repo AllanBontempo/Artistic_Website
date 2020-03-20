@@ -3,6 +3,17 @@
 
 
 # Artistic_Website
+
+<br>
+<br>
+
+<p align="center">
+  <img src="data/banner-thiago.jpg" width=39%>
+</p>
+
+<br>
+
+
 I made this web site for the artist Thiago de Paula to publish his projects and sell his products.
 
 
