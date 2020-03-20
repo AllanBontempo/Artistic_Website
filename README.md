@@ -1,8 +1,8 @@
-[![author](https://img.shields.io/badge/author-allanbontempo-red.svg)](https://www.linkedin.com/in/rafael-n-duarte/) [![](https://img.shields.io/badge/javascript-blue.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+[![author](https://img.shields.io/badge/author-allanbontempo-red.svg)](https://www.linkedin.com/in/rafael-n-duarte/) [![](https://img.shields.io/badge/language-javascript-blue.svg)](https://www.python.org/downloads/release/python-365/) ] [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ](https://github.com/AllanBontempo/Artistic_Website/issues)
 
 <p align="center">
-  <img src="rafaelnd_ds.png" >
+  <img src="data/Banner.png" width=85% >
 </p>
 
 # Artistic_Website
