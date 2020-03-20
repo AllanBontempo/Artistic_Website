@@ -2,7 +2,7 @@
 ](https://github.com/AllanBontempo/Artistic_Website/issues)
 
 <p align="center">
-  <img src="data/Banner.png" width=85% >
+  <img src="data/banner.png" width=85% >
 </p>
 
 # Artistic_Website
