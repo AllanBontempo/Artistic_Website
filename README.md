@@ -7,7 +7,10 @@ I made this web site for the artist Thiago de Paula to publish his projects and 
 It's my first project as a developer.
 
 
-**Background in:** Python and Machine Learning.
+**Languages used:** HTML, CSS, JavaScript. 
+<br>
+**Framework:** Bootstrap.
+
 
 **Links:**
 * [LinkedIn](https://www.linkedin.com/in/allan-bontempo-168721130/);
