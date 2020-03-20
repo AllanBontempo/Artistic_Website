@@ -22,10 +22,7 @@ Your books and comics will be read as a virtual book, without the need for downl
 The site also features a responsive contact form, so you can send an email to Thiago without any problems, and in the future there will be a store.
 
 
-It's my first project as a developer. I really enjoyed doing this project and I liked the result!! 
-
-
-
+It's my first project as a web developer. I really enjoyed doing this project and I liked the result!! 
 
 
 **Languages used:** HTML, CSS, JavaScript. 
